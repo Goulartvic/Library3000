@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Book List</title>
+</h:head>
+<h:body>
+	<h:form>
+		<p:messages id="message"/>
+	
+		<p:commandButton value="New" icon="ui-icon-circle-plus" action="#{bookBean.registerBook}"/>
+        <p:commandButton value="Refresh" icon="ui-icon-arrowrefresh-1-e" action="#{bookBean.listAll}" update="bookTable, message"/>
+
+        <p:splitButton value="Index" icon="ui-icon-home" action="#{userBean.backToIndexADM}" style="float: right">
+			<p:menuitem value="Logout" icon="ui-icon-power" action="#{loginBean.logout}" />
+		</p:splitButton>
+	
+		<p:dataTable id="bookTable" var="book" value="#{bookBean.books}"
+			rowKey="#{book.idBook}">
+            <p:column>
+                <p:commandButton icon="ui-icon-pencil" action="#{bookBean.update()}" />
+                <p:commandButton icon="	ui-icon-trash" action="#{bookBean.delete}" />
+            </p:column>
+			<p:column headerText="Title">
+				<h:outputText value="#{book.title}" />
+			</p:column>
+			<p:column headerText="Editor">
+				<h:outputText value="#{book.editor}" />
+			</p:column>
+			<p:column headerText="Publication Year">
+				<h:outputText value="#{book.yearPubli}" />
+			</p:column>
+			<p:column headerText="Writer">
+				<h:outputText value="#{book.writer}" />
+			</p:column>
+		</p:dataTable>
+	</h:form>
+
+</h:body>
+</html>

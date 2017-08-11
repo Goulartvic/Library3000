@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>User List</title>
+</h:head>
+<h:body>
+	<h:form>
+		<p:messages id="message"/>
+
+
+		<p:commandButton value="New" icon="ui-icon-circle-plus" action="#{userBean.admRegisterUser}" update="@form"/>
+		<p:commandButton value="Refresh" icon="ui-icon-arrowrefresh-1-e" action="#{userBean.listAll}" update="userTable, message"/>
+
+        <p:splitButton value="Index" icon="ui-icon-home" action="#{userBean.backToIndexADM}" style="float: right">
+		    <p:menuitem value="Logout" icon="ui-icon-power" action="#{loginBean.logout}" />
+        </p:splitButton>
+
+		
+		<p:dataTable id="userTable" var="user" value="#{userBean.users}"
+                     rowKey="#{user.idUser}">
+			<p:column>
+                <p:commandButton icon="ui-icon-pencil" action="#{userBean.update(user)}" update="@form"/>
+                <p:commandButton icon="	ui-icon-trash" action="#{userBean.delete}" update="@form"/>
+            </p:column>
+            <p:column headerText="Email">
+				<h:outputText value="#{user.email}" />
+			</p:column>
+			<p:column headerText="Name">
+				<h:outputText value="#{user.name}" />
+			</p:column>
+			<p:column headerText="Address">
+				<h:outputText value="#{user.address}" />
+			</p:column>
+			<p:column headerText="Birth Date">
+				<h:outputText value="#{user.birthDate}" />
+			</p:column>
+            <p:column headerText="Phone Number">
+                <h:outputText value="#{user.phoneNumber}" />
+            </p:column>
+		</p:dataTable>
+	</h:form>
+
+</h:body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<title>Register User</title>
+</h:head>
+<h:body>
+	<h1>New User</h1>
+	<h:form>
+		<fieldset>
+			<legend>New User Data</legend>
+			<h:panelGrid columns="2">
+				<p:outputLabel value="E-mail:" />
+                <p:inputText id="email_id" value="#{userBean.user.email}" >
+                    <f:attribute name="Type" value="E-mail"/>
+                    <f:validateRegex pattern=".+@.+"/>
+                    <f:ajax event="blur" render="messageEmail"/>
+                </p:inputText>
+				<p:outputLabel value="Password:" for="password" />
+				<p:password id="password" value="#{userBean.user.password}" feedback="True"/>
+				<p:outputLabel value="Name:" for="name" />
+				<p:inputText id="name" value="#{userBean.user.name}" />
+				<p:outputLabel value="Birth date:" for="birthDate" />
+				<p:calendar id="birthDate" value="#{userBean.user.birthDate}" pattern="dd/MM/yyyy" mask="true"/>
+				<p:outputLabel value="Address:" for="address" />
+				<p:inputText id="address" value="#{userBean.user.address}" />
+				<p:outputLabel value="PhoneNumber:" for="phoneNumber" />
+				<p:inputMask id="phoneNumber"  value="#{userBean.user.phoneNumber}" mask="(99)9999-99999"/>
+				<h:outputText value="ADM: " />
+				<p:selectBooleanCheckbox value="#{userBean.value1}" />
+
+				<p:commandButton value="Save" action="#{userBean.saveAdmin}" update="@form" process="@form"/>
+				<p:commandButton value="Cancel" action="#{userBean.admCancel}" />
+			</h:panelGrid>
+		</fieldset>
+	</h:form>
+</h:body>
+</html>

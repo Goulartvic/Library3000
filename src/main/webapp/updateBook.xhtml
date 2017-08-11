@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+<title>Register Book</title>
+</h:head>
+<h:body>
+	<h1>New Book</h1>
+	<h:form>
+		<fieldset>
+			<legend>New Book Data</legend>
+			<h:panelGrid columns="2">
+				<p:outputLabel value="Title:"/>
+				<p:inputText id="title_id" value="#{bookBean.book.title}"/>
+				<p:outputLabel value="Editor:"/>
+				<p:inputText id="editor" value="#{bookBean.book.editor}"/>
+				<p:outputLabel value="Year of publication:"/>
+				<p:inputText id="yearPubli" value="#{bookBean.book.yearPubli}"/>
+				<p:outputLabel value="Writer:"/>
+				<p:inputText id="writer" value="#{bookBean.book.writer}"/>
+				<p:outputLabel value="Edition:"/>
+				<p:inputText id="edition" value="#{bookBean.book.edition}"/>
+				
+				 <p:commandButton value="Save" action="#{bookBean.updateBook}"/>
+				 <p:commandButton value="Cancel" action="#{bookBean.cancelRegister}"/>
+			</h:panelGrid>
+		</fieldset>
+	</h:form>
+</h:body>
+</html>

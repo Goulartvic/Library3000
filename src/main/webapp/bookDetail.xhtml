@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Book List</title>
+</h:head>
+<h:body>
+	<h:form>
+		<p:messages id="message"/>
+
+		<div align="right">
+            <p:splitButton value="Index" action="#{bookBean.backToIndexUser}" update="@form" icon="ui-icon-home">
+                <p:menuitem value="Logout" action="#{loginBean.logout}" icon="ui-icon-power" update="@form"/>
+            </p:splitButton>
+        </div>
+
+		<p:dataTable id="bookTable" var="book" value="#{bookBean.listSelectedBook()}"
+			rowKey="#{book.idBook}">
+			<p:column headerText="Title">
+				<h:outputText value="#{book.title}" />
+			</p:column>
+			<p:column headerText="Editor">
+				<h:outputText value="#{book.editor}" />
+			</p:column>
+			<p:column headerText="Publication Year">
+				<h:outputText value="#{book.yearPubli}" />
+			</p:column>
+			<p:column headerText="Writer">
+				<h:outputText value="#{book.writer}" />
+			</p:column>
+				<p:column headerText="BookStatus">
+				<h:outputText value="#{book.bookStatus}" />
+			</p:column>
+		</p:dataTable>
+	</h:form>
+
+</h:body>
+</html>
