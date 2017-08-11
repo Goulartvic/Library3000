@@ -83,8 +83,8 @@ public class BookBean implements Serializable{
 		return "bookList.xhtml";
 	}
 
-	public String update() {
-        listSelectedBook();
+	public String update(Book bookPar) {
+        selectedBook = bookPar;
         return "updateBook.xhtml";
 	}
 

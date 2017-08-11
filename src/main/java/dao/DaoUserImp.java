@@ -173,23 +173,4 @@ public class DaoUserImp implements DaoUser {
 		}
 	}
 
-//	public List<User> selectUserUpdate(){
-//        List<User> returnList = new ArrayList<>();
-//
-//        try {
-//            Connection conn = connection.connection();
-//
-//            String sql = "SELECT iduser, email, name, password, birthDate, address, idusertype, phoneNumber FROM user";
-//
-//            PreparedStatement statement = conn.prepareStatement(sql);
-//
-//            ResultSet resultSet = statement.executeQuery();
-//
-//        } catch (Exception e){
-//            e.printStackTrace();
-//        }
-//
-//        return returnList;
-//	}
-
 }

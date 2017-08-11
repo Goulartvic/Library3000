@@ -119,7 +119,6 @@ public class UserBean implements Serializable {
 
 	public String update(User userPar) {
 		selectedUser = userPar;
-		listSelectedUser();
 
 		return "updateUser.xhtml";
 
