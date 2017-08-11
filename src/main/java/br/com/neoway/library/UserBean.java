@@ -101,9 +101,10 @@ public class UserBean implements Serializable {
 
 	}
 
-	public String delete() {
+	public String delete(User userPar) {
 		FacesContext context = FacesContext.getCurrentInstance();
 		try {
+		    selectedUser = userPar;
 			control.delete(selectedUser);
 			users.remove(selectedUser);
 			selectedUser = null;
