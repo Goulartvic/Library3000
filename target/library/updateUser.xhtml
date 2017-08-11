@@ -16,6 +16,7 @@
 		<fieldset>
 			<legend>New User Data</legend>
 			<h:panelGrid columns="2">
+
 				<p:outputLabel value="E-mail:"/>
 				<p:inputText id="email_id" value="#{userBean.selectedUser.email}" >
 					<f:attribute name="Type" value="E-mail"/>
@@ -33,7 +34,7 @@
 				<p:outputLabel value="PhoneNumber:" for="phoneNumber" />
 				<p:inputMask id="phoneNumber"  value="#{userBean.selectedUser.phoneNumber}" mask="(99)9999-99999"/>
 
-				<p:commandButton value="Update" action="#{userBean.updateUser}" />
+				<p:commandButton value="Update" action="#{userBean.updateUser()}" update="@form"/>
 				<p:commandButton value="Cancel" action="#{userBean.admCancel}" />
 			</h:panelGrid>
 		</fieldset>
