@@ -7,127 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="291c9a25-52e0-4375-ae88-437ae845133c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/main/java/br/com/neoway/library/BasicBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/neoway/library/BasicBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/neoway/library/BookBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/neoway/library/LoginBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/br/com/neoway/library/UserBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/connection/ConnectionManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/control/BookControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/control/UserControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/DAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/DaoBook.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/DaoBookImp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/DaoFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/DaoUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/DaoUserImp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/Book.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/BookStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/model/UserType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/br/com/neoway/library/BasicBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/br/com/neoway/library/BookBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/br/com/neoway/library/LoginBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/br/com/neoway/library/UserBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/connection/ConnectionManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/control/BookControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/control/UserControl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/dao/DAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/dao/DaoBook.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/dao/DaoBookImp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/dao/DaoFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/dao/DaoUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/dao/DaoUserImp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/model/Book.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/model/BookStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/model/UserType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/el-ri-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/javax.persistence-2.2.0-RC1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/jsf-api-2.2.14.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/jsf-impl-2.2.14.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/jsp-api-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/mysql-connector-java-5.1.39.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/lib/primefaces-6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/library_test_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/library_test_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_el_el_ri_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_api_2_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_faces_jsf_impl_2_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_javax_persistence_2_2_0_RC1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/main/webapp/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/target/m2e-wtp/web-resources/META-INF/maven/br.com.neoway/library-test/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/target/m2e-wtp/web-resources/META-INF/maven/br.com.neoway/library-test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library-test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/neoway/library/BasicBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/neoway/library/BookBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/neoway/library/LoginBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/neoway/library/UserBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/connection/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/control/BookControl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/control/UserControl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/DAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoBookImp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoUserImp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/BookStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/UserType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/admRegisterUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/bookDetail.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/bookList.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/indexADM.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/indexUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/registerBook.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/registerUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/updateBook.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/updateUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/userList.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/admRegisterUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/bookDetail.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/bookList.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/indexADM.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/indexUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/registerBook.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/registerUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/updateBook.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/updateUser.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/library/userList.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -592,12 +472,12 @@
       <workItem from="1502453053427" duration="761000" />
       <workItem from="1502455338622" duration="1919000" />
       <workItem from="1502457524718" duration="833000" />
-      <workItem from="1502459356375" duration="56000" />
+      <workItem from="1502459356375" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50265000" />
+    <option name="totallyTimeSpent" value="51201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -609,9 +489,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16860144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16860144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25262576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
