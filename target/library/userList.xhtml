@@ -25,7 +25,7 @@
                      rowKey="#{user.idUser}">
 			<p:column>
                 <p:commandButton icon="ui-icon-pencil" action="#{userBean.update(user)}" update="@form"/>
-                <p:commandButton icon="	ui-icon-trash" action="#{userBean.delete}" update="@form"/>
+                <p:commandButton icon="	ui-icon-trash" action="#{userBean.delete(user)}" update="@form"/>
             </p:column>
             <p:column headerText="Email">
 				<h:outputText value="#{user.email}" />

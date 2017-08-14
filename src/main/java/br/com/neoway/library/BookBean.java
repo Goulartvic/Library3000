@@ -67,9 +67,10 @@ public class BookBean implements Serializable{
 
 	}
 
-	public String delete() {
+	public String delete(Book bookPar) {
 		FacesContext context = FacesContext.getCurrentInstance();
 		try {
+			selectedBook = bookPar;
 			control.delete(selectedBook);
 			books.remove(selectedBook);
 			selectedBook = null;

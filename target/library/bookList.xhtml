@@ -22,8 +22,8 @@
 		<p:dataTable id="bookTable" var="book" value="#{bookBean.books}"
 			rowKey="#{book.idBook}">
             <p:column>
-                <p:commandButton icon="ui-icon-pencil" action="#{bookBean.update(book)}" />
-                <p:commandButton icon="	ui-icon-trash" action="#{bookBean.delete}" />
+                <p:commandButton icon="ui-icon-pencil" action="#{bookBean.update(book)}" update="@form" />
+                <p:commandButton icon="	ui-icon-trash" action="#{bookBean.delete(book)}" update="@form" />
             </p:column>
 			<p:column headerText="Title">
 				<h:outputText value="#{book.title}" />
