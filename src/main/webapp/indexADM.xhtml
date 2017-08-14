@@ -11,8 +11,8 @@
 <h:body>
 	<h:form>
 		<p:splitButton value="Actions">
-			<p:menuitem value="List Users" action="#{userBean.listAll}" update="@form"/>
-			<p:menuitem value="List Books" action="#{bookBean.listAll}" />
+			<p:menuitem value="List Users" icon="ui-icon-person" action="#{userBean.listAll}" update="@form"/>
+			<p:menuitem value="List Books" icon="ui-icon-bookmark" action="#{bookBean.listAll}" update="@form"/>
 			<p:menuitem value="Logout" action="#{loginBean.logout}" update="@form" icon="ui-icon-power"/>
 		</p:splitButton>
 

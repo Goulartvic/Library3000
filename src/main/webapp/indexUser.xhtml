@@ -10,7 +10,8 @@
 </h:head>
 <h:body>
     <h:form>
-            <p:commandButton value="Logout" action="#{loginBean.logout}" style="margin-right: 0px; float: right" icon="ui-icon-power" />
+            <p:commandButton value="Logout" action="#{loginBean.logout}" style="margin-right: 0px; float: right"
+                             icon="ui-icon-power" update="@form" process="@form"/>
 
         <div align="center">
             <p:outputLabel value="Search By Title" />
@@ -30,10 +31,10 @@
 			<p:column>
                 <p:commandButton value="Details" icon="ui-icon-search" style="float:left;margin-right: 10px" action="#{bookBean.bookDetail(book)}"/>
             </p:column>
-            <p:column headerText="Title">
+            <p:column headerText="Title" sortBy="#{book.title}">
                 <h:outputText value="#{book.title}" />
 			</p:column>
-			<p:column headerText="Writer">
+			<p:column headerText="Writer" sortBy="#{book.writer}">
 				<h:outputText value="#{book.writer}" />
 			</p:column>
 		</p:dataTable>

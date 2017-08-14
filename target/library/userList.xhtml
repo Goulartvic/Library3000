@@ -17,7 +17,8 @@
 		<p:commandButton value="Refresh" icon="ui-icon-arrowrefresh-1-e" action="#{userBean.listAll}" update="userTable, message"/>
 
         <p:splitButton value="Index" icon="ui-icon-home" action="#{userBean.backToIndexADM}" style="float: right">
-		    <p:menuitem value="Logout" icon="ui-icon-power" action="#{loginBean.logout}" />
+            <p:menuitem value="List Books" icon="ui-icon-bookmark" action="#{bookBean.listAll}" />
+            <p:menuitem value="Logout" icon="ui-icon-power" action="#{loginBean.logout}" />
         </p:splitButton>
 
 		
@@ -43,6 +44,7 @@
                 <h:outputText value="#{user.phoneNumber}" />
             </p:column>
 		</p:dataTable>
+
 	</h:form>
 
 </h:body>

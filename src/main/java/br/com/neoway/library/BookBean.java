@@ -116,10 +116,6 @@ public class BookBean implements Serializable{
 		return "bookList.xhtml";
 	}
 	
-	public String admCancel(){
-		return "bookList.xhtml";
-	}
-	
 	public String bookDetail(Book bookPar){
 	    selectedBook = bookPar;
 	    listSelectedBook();
