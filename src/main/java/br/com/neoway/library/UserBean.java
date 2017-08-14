@@ -29,10 +29,6 @@ public class UserBean implements Serializable {
 		return value1;
 	}
 
-	public List<User> listSelectedUser(){
-		return java.util.Arrays.asList(selectedUser);
-	}
-
 	public void setValue1(boolean value1) {
 		this.value1 = value1;
 	}
@@ -137,7 +133,7 @@ public class UserBean implements Serializable {
 	public String updateUser() {
 		FacesContext context = FacesContext.getCurrentInstance();
 		try {
-			control.update(user);
+			control.update(selectedUser);
 			context.addMessage(null, new FacesMessage(
 					FacesMessage.SEVERITY_INFO, "User updated successfully",
 					""));

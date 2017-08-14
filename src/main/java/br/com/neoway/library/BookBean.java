@@ -95,13 +95,15 @@ public class BookBean implements Serializable{
 	}
 
 	public String registerBook() {
-		return "registerBook.xhtml";
+        this.book = new Book();
+
+	    return "registerBook.xhtml";
 	}
 
 	public String updateBook() {
 		FacesContext context = FacesContext.getCurrentInstance();
 		try {
-			control.save(book);
+			control.update(selectedBook);
 			context.addMessage(null, new FacesMessage(
 					FacesMessage.SEVERITY_INFO, "book updated successfully",
 					""));

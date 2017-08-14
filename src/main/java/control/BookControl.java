@@ -26,17 +26,22 @@ public class BookControl {
 		}
 
 		if (book.getWriter() == null || book.getWriter().trim().isEmpty()) {
-			throw new Exception("The wrtier name is required");
+			throw new Exception("The writer name is required");
 		}
 		if (book.getEdition() == null || book.getEdition().trim().isEmpty()) {
 			throw new Exception("The edition is required");
 		}
 
-		if (book.getIdBook() == 0) {
 			bookDao.save(book);
-		} else {
-			bookDao.update(book);
+	}
+
+	public void update(Book book) throws Exception{
+		if (book == null){
+			throw new Exception(
+					"You need to choose one user to update"
+			);
 		}
+		bookDao.update(book);
 	}
 
 	public List<Book> searchAll() {
