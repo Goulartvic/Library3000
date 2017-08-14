@@ -16,14 +16,15 @@
         <p:commandButton value="Refresh" icon="ui-icon-arrowrefresh-1-e" action="#{bookBean.listAll}" update="bookTable, message"/>
 
         <p:splitButton value="Index" icon="ui-icon-home" action="#{userBean.backToIndexADM}" style="float: right">
-			<p:menuitem value="Logout" icon="ui-icon-power" action="#{loginBean.logout}" />
+            <p:menuitem value="List Users" icon="ui-icon-person" action="#{userBean.listAll}" update="@form"/>
+            <p:menuitem value="Logout" icon="ui-icon-power" action="#{loginBean.logout}" />
 		</p:splitButton>
 	
 		<p:dataTable id="bookTable" var="book" value="#{bookBean.books}"
 			rowKey="#{book.idBook}">
             <p:column>
-                <p:commandButton icon="ui-icon-pencil" action="#{bookBean.update(book)}" update="@form" />
                 <p:commandButton icon="	ui-icon-trash" action="#{bookBean.delete(book)}" update="@form" />
+                <p:commandButton icon="ui-icon-pencil" action="#{bookBean.update(book)}" update="@form" />
             </p:column>
 			<p:column headerText="Title">
 				<h:outputText value="#{book.title}" />
